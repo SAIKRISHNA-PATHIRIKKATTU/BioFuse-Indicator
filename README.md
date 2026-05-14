@@ -11,4 +11,4 @@ It uses two reactive solutions (Solution A and Solution B) separated by a thin w
 
 ### Ownership & Evidence
 Developed by: Saikrishna P  
-Created: May 2026 for the Young Innovators Programme (YIP)
+Created: February 2026 for the  V THINC OF Vidya Academy of Science and Technology, Thrissur
