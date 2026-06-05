@@ -1,0 +1,88 @@
+{
+  "vaccines": [
+    {
+      "name": "Pfizer-BioNTech (COMIRNATY)",
+      "target_disease": "COVID-19",
+      "optimal_storage_fahrenheit": "-130°F to -76°F",
+      "fridge_safe_range_fahrenheit": "36°F to 46°F",
+      "critical_heat_threshold_fahrenheit": 77,
+      "max_hours_at_critical_heat": 6,
+      "biofuse_solution_b_trigger_hours": 4,
+      "heat_degradation_effect": "Rapid mRNA single-strand hydrolysis and structural collapse of protective lipid nanoparticles, rendering the formula completely impotent.",
+      "freeze_danger_effect": "N/A (Designed for ultra-low freezing, but repeated freeze-thaw cycles after reconstitution destroy structural integrity.)",
+      "handling_protocol": "Must be used within 6 hours once altered or brought to room temperature. Diluted vials cannot be refrozen."
+    },
+    {
+      "name": "Moderna (Spikevax)",
+      "target_disease": "COVID-19",
+      "optimal_storage_fahrenheit": "-13°F to 5°F",
+      "fridge_safe_range_fahrenheit": "36°F to 46°F",
+      "critical_heat_threshold_fahrenheit": 77,
+      "max_hours_at_critical_heat": 12,
+      "biofuse_solution_b_trigger_hours": 8,
+      "heat_degradation_effect": "Thermal denaturation of genetic material fragments, causing a fast decline in active antibody-response stimulation capabilities.",
+      "freeze_danger_effect": "N/A (Safely stored in standard medical freezers.)",
+      "handling_protocol": "Quarantine the entire batch immediately if the BioFuse visual seal activates past the 8-hour marker."
+    },
+    {
+      "name": "BCG Vaccine",
+      "target_disease": "Tuberculosis (TB)",
+      "optimal_storage_fahrenheit": "36°F to 46°F",
+      "fridge_safe_range_fahrenheit": "36°F to 46°F",
+      "critical_heat_threshold_fahrenheit": 98.6,
+      "max_hours_at_critical_heat": 336,
+      "biofuse_solution_b_trigger_hours": 240,
+      "heat_degradation_effect": "Accelerated death of live-attenuated bacterial structures. Severe drop in efficiency if exposed continuously to high heat for over 10 days.",
+      "freeze_danger_effect": "The freeze-dried powder can withstand freezing, but freezing the separate liquid diluent breaks the glass vial structure.",
+      "handling_protocol": "CRITICAL: Once the freeze-dried components are mixed with the liquid diluent, the vaccine must be thrown away within 6 hours regardless of temperature status."
+    },
+    {
+      "name": "Rotarix / RotaTeq",
+      "target_disease": "Rotavirus Gastroenteritis",
+      "optimal_storage_fahrenheit": "36°F to 46°F",
+      "fridge_safe_range_fahrenheit": "36°F to 46°F",
+      "critical_heat_threshold_fahrenheit": 98.6,
+      "max_hours_at_critical_heat": 168,
+      "biofuse_solution_b_trigger_hours": 120,
+      "heat_degradation_effect": "Gradual loss of live viral potency. Extended heat exposure prevents the vaccine from prompting proper intestinal immunity.",
+      "freeze_danger_effect": "Liquid structure is highly sensitive to accidental crystallization, changing the consistency permanently.",
+      "handling_protocol": "Store centrally in the refrigerator unit. Never place near the back cooling vents where temperatures slide below 32°F."
+    },
+    {
+      "name": "MMR II",
+      "target_disease": "Measles, Mumps, and Rubella",
+      "optimal_storage_fahrenheit": "-58°F to 46°F",
+      "fridge_safe_range_fahrenheit": "36°F to 46°F",
+      "critical_heat_threshold_fahrenheit": 77,
+      "max_hours_at_critical_heat": 8,
+      "biofuse_solution_b_trigger_hours": 5,
+      "heat_degradation_effect": "Rapid breakdown of live viral components, making it ineffective against measles and rubella vectors.",
+      "freeze_danger_effect": "Safe to freeze as raw powder, but the liquid diluent used for mixing will crack if frozen.",
+      "handling_protocol": "Once pulled from storage and drawn into a syringe, it must be administered within 8 hours or destroyed."
+    },
+    {
+      "name": "Engerix-B / Recombivax",
+      "target_disease": "Hepatitis B",
+      "optimal_storage_fahrenheit": "36°F to 46°F",
+      "fridge_safe_range_fahrenheit": "36°F to 46°F",
+      "critical_heat_threshold_fahrenheit": 98.6,
+      "max_hours_at_critical_heat": 720,
+      "biofuse_solution_b_trigger_hours": 480,
+      "heat_degradation_effect": "Highly heat resistant up to a month, but continuous extreme ambient exposure slowly unravels the surface antigen proteins.",
+      "freeze_danger_effect": "CRITICAL RISK - Freezing causes the aluminum adjuvant to form solid crystals. This totally destroys the vaccine's potency and causes severe tissue irritation if injected.",
+      "handling_protocol": "Strictly freeze-sensitive. If the temperature log drops below 32°F even once, perform a manual 'Shake Test' to check for crystallization spoilage."
+    },
+    {
+      "name": "Infanrix / DTaP",
+      "target_disease": "Diphtheria, Tetanus, and Pertussis",
+      "optimal_storage_fahrenheit": "36°F to 46°F",
+      "fridge_safe_range_fahrenheit": "36°F to 46°F",
+      "critical_heat_threshold_fahrenheit": 98.6,
+      "max_hours_at_critical_heat": 336,
+      "biofuse_solution_b_trigger_hours": 240,
+      "heat_degradation_effect": "Slow denaturation of toxoid components, drastically reducing long-term immune memory creation.",
+      "freeze_danger_effect": "CRITICAL RISK - Permanent precipitation of the aluminum salt adjuvant. The uniform liquid breaks down into un-mixable white flakes.",
+      "handling_protocol": "Do not use dry ice or cold packs directly touching the box during local shipping logistics."
+    }
+  ]
+}
